@@ -3,9 +3,25 @@ const dotenv = require('dotenv');
 dotenv.config({ path: '.env' });
 
 const express = require('express');
-const app = express();
 
+const quotes = require('./quotes.json');
+
+const app = express();
 const port = process.env.PORT;
+
+
+// Route to get a random quote
+app.get('/quote', (req, res) => {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  res.json({ 'Naval Ravikant': quotes[randomIndex] });
+});
+
+// Route to get a random quote
+app.get('/text', (req, res) => {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  res.send(quotes[randomIndex]);
+});
+
 
 //  Listening Port
 app.listen(port, () => {
