@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const quotes = require('./data/quotes.json');
+const quotes = require('./quotes.json');
 
 dotenv.config({ path: '.env' });
 
