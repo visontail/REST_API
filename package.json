@@ -1,7 +1,7 @@
 {
   "name": "rest_api",
   "version": "1.0.0",
-  "description": "A REST API for random Naval Ravikant wisdoms",
+  "description": "A REST API for random Naval Ravikant quotes",
   "main": "./src/index.js",
   "scripts": {
     "start": "nodemon index.js"
