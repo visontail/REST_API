@@ -4,7 +4,7 @@ dotenv.config({ path: '.env' });
 
 const express = require('express');
 
-const quotes = require('./quotes.json');
+const quotes = require('./data/quotes.json');
 
 const app = express();
 const port = process.env.PORT;
