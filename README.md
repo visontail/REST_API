@@ -45,13 +45,15 @@ This API is a RESTful service designed to provide users with random quotes from 
      ```
      The API will be accessible at `http://localhost:3000`.
 
-+ **Containerized with Docker:**
-   - Build the Docker image using the Dockerfile:
+**OR**
+
+**Deploy using the Docker file:**
+   1. Build the Docker image using the Docker file:
      ```bash
      docker build -t docker-image-name .
      ```
 
-   - Run the Docker container:
+   2. Run the Docker container:
      ```bash
      docker run -p 3000:3000 docker-image-name
      ```
