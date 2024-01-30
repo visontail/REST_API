@@ -49,12 +49,11 @@ This API is a RESTful service designed to provide users with random quotes from 
 
 **Deploy using the Docker file:**
    1. Build the Docker image using the Docker file:
-     ```bash
-     docker build -t docker-image-name .
-     ```
-
+      ```bash
+       docker build -t docker-image-name .
+      ```
    2. Run the Docker container:
-     ```bash
-     docker run -p 3000:3000 docker-image-name
-     ```
-     The API will be available also at `http://localhost:3000` within the Docker container.
+      ```bash
+       docker run -p 3000:3000 docker-image-name
+      ```
+  - The API will be available also at `http://localhost:3000` within the Docker container.
