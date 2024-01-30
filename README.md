@@ -45,7 +45,7 @@ This API is a RESTful service designed to provide users with random quotes from 
      ```
      The API will be accessible at `http://localhost:3000`.
 
-5. **Containerize with Docker:**
++ **Containerized with Docker:**
    - Build the Docker image using the Dockerfile:
      ```bash
      docker build -t docker-image-name .
