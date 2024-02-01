@@ -10,13 +10,12 @@ This API is a RESTful service designed to provide users with random quotes from 
   - Access the API's `/text` endpoint to receive just a randomly selected quote from Naval Ravikant
     - *Time is the ultimate currency, and I should have been more tight-fisted with it.*
 
-## Technologies and Languages Used:
+## Technologies
 
-- **Node.js and Express.js:**
-  - The API is built using Node.js, a server-side JavaScript runtime, and Express.js, a popular web application framework for Node.js. This combination enables the creation of fast and scalable web APIs.
-
-- **Docker:**
-  - The project is containerized using Docker, providing a consistent and isolated environment for the application. This simplifies deployment across various platforms and enhances scalability.
+- **API:** Node.js, Express.js
+- **HTTP Requests:** Axios
+- **Styling:** Bootstrap
+- **Container:** Docker
 
 ## Setup Steps:
 
